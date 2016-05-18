@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: java-web-starter-sky
+  host: java-web-starter-sky
+  disk_quota: 1024M
+  services:
+  - java-web-starter-sky-cloudantNoSQLDB
